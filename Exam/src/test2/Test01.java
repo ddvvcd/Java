@@ -15,7 +15,8 @@ public class Test01 {
 				
 				for (col = 0; col <= row; col++) {
 					
-				System.out.print(str[col]); //char str[]을 출력 
+				System.out.print(str[col]); 
+							//char str[]을 출력 
 						   //ln : 줄바꿈
 				}
 	
