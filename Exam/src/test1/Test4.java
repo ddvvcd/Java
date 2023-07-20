@@ -28,5 +28,6 @@ public class Test4 {
 		}
 		
 		System.out.printf("등급은 %c 입니다.", grade);
+		sc.close();
 }
 }

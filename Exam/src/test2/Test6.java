@@ -29,11 +29,13 @@ public class Test6 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		intro(); //인트로 메소드 호출
+		
 		int a = input(sc, "a"); // "" : 문자열 , '' : 문자
 		int b = input(sc, "b");
 		
-		int output = add(a, b);
-		result(output);
+		int output = add(a, b); //a, b는 입력값을 집어 넣은 뒤 int output으로 넣음
+		result(output); //result 메소드 호출
 		
 		sc.close();
 		
